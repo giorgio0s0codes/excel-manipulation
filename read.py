@@ -2,7 +2,7 @@ import pandas as pd
 
 excel_file = 'books.xlsx'
 
-df = pd.read_excel(excel_file,  sheet_name="books")
+df = pd.read_excel(excel_file,  usecols=['authors'])
 
 print(df)
 
